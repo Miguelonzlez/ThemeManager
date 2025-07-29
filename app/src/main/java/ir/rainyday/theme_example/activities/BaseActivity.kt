@@ -11,6 +11,6 @@ import ir.rainyday.thememanager.ThemeManager
 abstract class BaseActivity : AppCompatActivity() {
      override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-         ThemeManager.getInstance().applyTheme(this)
+         ThemeManager.getInstance().applyTheme(this) 
     }
 }
